@@ -2,6 +2,10 @@
   "name": "googel-drive-downloader",
   "version": "0.0.0",
   "private": true,
+  "engines": {
+    "node": "11.6.0",
+    "npm": "6.5.0"
+  },
   "scripts": {
     "start": "node ./server.js",
     "prepare": "patch-package"
