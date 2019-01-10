@@ -1,8 +1,8 @@
 {
   "server": {
     "username": "admin",
-    "password": "password",
-    "port": 8000
+    "password": "google",
+    "port": 3000
   },
   "transport": {
     "scope": "https://www.googleapis.com/auth/drive",
