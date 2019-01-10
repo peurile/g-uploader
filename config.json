@@ -2,7 +2,7 @@
   "server": {
     "username": "admin",
     "password": "google",
-    "port": 3000
+    "port": 80
   },
   "transport": {
     "scope": "https://www.googleapis.com/auth/drive",
