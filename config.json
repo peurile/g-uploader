@@ -1,7 +1,7 @@
 {
   "server": {
     "username": "admin",
-    "password": "adminpass",
+    "password": "amazon",
     "port": 3000
   },
   "transport": {
