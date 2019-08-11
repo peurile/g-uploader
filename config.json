@@ -1,12 +1,12 @@
 {
   "server": {
-    "username": "admin",
-    "password": "google",
+    "username": "$USER",
+    "password": "$PASSWORD",
     "port": 3000
   },
   "transport": {
     "scope": "https://www.googleapis.com/auth/drive",
-    "downloadPath": "~/Downloads"
+    "downloadPath": "/Downloads"
   },
   "credential": {
     "installed": {
