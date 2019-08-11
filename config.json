@@ -1,7 +1,7 @@
 {
   "server": {
-    "username": "$USER",
-    "password": "$PASSWORD",
+    "username": "",
+    "password": "",
     "port": 3000
   },
   "transport": {
