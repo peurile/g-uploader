@@ -21,8 +21,8 @@ To control access to the server, you can configure basic settings in `config.jso
 ```
 "server": {
   "username": "admin",
-  "password": "password",
-  "port": 8000
+  "password": "google",
+  "port": 8080
 }
 ```
 ### Starting 
