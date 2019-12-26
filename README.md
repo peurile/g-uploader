@@ -7,6 +7,13 @@ A simple node web server that helps user to download web resources and upload to
 Simply clone the repo to your local or your host machine. You can, if you want to, use Docker to host the app instead.
 Here is my docker image---> https://hub.docker.com/r/capriciousduck/g-uploader
 
+Following is the docker command to run this app in a container.
+'''
+docker run --name g-uploader \
+--restart always \
+-v /some/path/on/host:/g-uploader/Downloads \
+-p 8080:8080 capriciousduck/g-uploader
+'''
 ### Prerequisites
 
 - Aria2
