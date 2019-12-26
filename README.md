@@ -8,12 +8,12 @@ Simply clone the repo to your local or your host machine. You can, if you want t
 Here is my docker image---> https://hub.docker.com/r/capriciousduck/g-uploader
 
 Following is the docker command to run this app in a container.
-'''
-docker run --name g-uploader \
+```
+docker run -d --name g-uploader \
 --restart always \
 -v /some/path/on/host:/g-uploader/Downloads \
 -p 8080:8080 capriciousduck/g-uploader
-'''
+```
 ### Prerequisites
 
 - Aria2
