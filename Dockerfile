@@ -13,6 +13,6 @@ WORKDIR /g-uploader
 
 RUN npm install && chmod +x setup.sh
 
-EXPOSE 8080
+EXPOSE 3000
 
 CMD ./setup.sh
