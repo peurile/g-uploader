@@ -12,7 +12,7 @@ Following is the docker command to run this app in a container.
 docker run -d --name g-uploader \
 --restart always \
 -v /some/path/on/host:/g-uploader/Downloads \
--p 8080:8080 capriciousduck/g-uploader
+-p 8080:3000 capriciousduck/g-uploader
 ```
 ### Prerequisites
 
@@ -30,7 +30,7 @@ To control access to the server, you can configure basic settings in `config.jso
 "server": {
   "username": "admin",
   "password": "google",
-  "port": 8080
+  "port": 3000
 }
 ```
 ### Starting 
