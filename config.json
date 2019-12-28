@@ -1,7 +1,7 @@
 {
   "server": {
     "username": "admin",
-    "password": "google",
+    "password": "passwd",
     "port": 8080
   },
   "transport": {
