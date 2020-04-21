@@ -1,6 +1,6 @@
-# Google Drive Downloader
+# Google Drive Uploader
 
-A simple node web server that helps user to download web resources and upload to Google Drive.
+A simple node web server that helps user to download files from web and upload to Google Drive.
 
 ## Getting Started
 
